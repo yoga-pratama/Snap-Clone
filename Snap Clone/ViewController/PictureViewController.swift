@@ -48,7 +48,7 @@ class PictureViewController: UIViewController,UIImagePickerControllerDelegate,UI
             }else{
                 print("upload success...")
                 print(metadata?.downloadURL())
-                self.performSegue(withIdentifier: "nextStepSegue", sender: nil)
+                self.performSegue(withIdentifier: "nextStepSegue", sender: metadata?.downloadURL()!.absoluteString)
             }
         }
         
@@ -56,7 +56,9 @@ class PictureViewController: UIViewController,UIImagePickerControllerDelegate,UI
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+            let nextVC = segue.destination as! SelectUserViewController
+                nextVC.imageURL = sender as! String
+                nextVC.descrip = descriptionText.text!
     }
     
 }

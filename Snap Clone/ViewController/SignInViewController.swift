@@ -17,6 +17,7 @@ class SignInViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       
     }
     
     @IBAction func LoginButtonTapped(_ sender: Any) {
@@ -41,6 +42,7 @@ class SignInViewController: UIViewController {
                 print("create user fail:\(error)")
             }else{
                 print("crate user success")
+        Database.database().reference().child("users").child(user!.uid).child("email").setValue(user!.email!)
                 self.performSegue(withIdentifier: "signInSegue", sender: nil)
             }
         }
