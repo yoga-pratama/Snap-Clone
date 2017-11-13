@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import SDWebImage
+import Firebase
 
 class ViewSnapViewController: UIViewController {
-
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var labelDesc: UILabel!
     
@@ -17,21 +19,27 @@ class ViewSnapViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         labelDesc.text = snap.descrip
+        imageView.sd_setImage(with: URL(string : snap.imageURL))
     }
-
-   
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        
+         Database.database().reference().child("users").child(Auth.auth().currentUser!.uid).child("snaps").child(snap.key).removeValue()
+            Storage.storage().reference().child("images").child("\(snap.uuid).jpg").delete()
+         print("removing snaps and pic")
     }
-    */
-
+    
+    /*
+     // MARK: - Navigation
+     
+     // In a storyboard-based application, you will often want to do a little preparation before navigation
+     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+     // Get the new view controller using segue.destinationViewController.
+     // Pass the selected object to the new view controller.
+     }
+     */
+    
 }
