@@ -14,6 +14,10 @@
 		0A0A770B1FB95ACB00052CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A77091FB95ACB00052CAB /* LaunchScreen.storyboard */; };
 		0A0A77161FB95ACC00052CAB /* Snap_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77151FB95ACC00052CAB /* Snap_CloneTests.swift */; };
 		0A0A77211FB95ACC00052CAB /* Snap_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77201FB95ACC00052CAB /* Snap_CloneUITests.swift */; };
+		0A0A772F1FB95DAF00052CAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A772E1FB95DAF00052CAB /* GoogleService-Info.plist */; };
+		51E302D620D0297AE2BE6D68 /* Pods_Snap_CloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734D56B858ECB73AAE0C8A63 /* Pods_Snap_CloneTests.framework */; };
+		74963D17D36B851D8B2D637B /* Pods_Snap_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD9A714FA5557F705C81503 /* Pods_Snap_Clone.framework */; };
+		C51CD052943B7B913033FFC0 /* Pods_Snap_CloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD33366D7BC272AD32F6825 /* Pods_Snap_CloneUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,16 @@
 		0A0A771C1FB95ACC00052CAB /* Snap CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snap CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0A77201FB95ACC00052CAB /* Snap_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_CloneUITests.swift; sourceTree = "<group>"; };
 		0A0A77221FB95ACC00052CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0A772E1FB95DAF00052CAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B61F2B92A62CC818C133359 /* Pods-Snap CloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap CloneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snap CloneUITests/Pods-Snap CloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CD33366D7BC272AD32F6825 /* Pods_Snap_CloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_CloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734D56B858ECB73AAE0C8A63 /* Pods_Snap_CloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_CloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0FE9D391972EFC646B11A7 /* Pods-Snap CloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap CloneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snap CloneTests/Pods-Snap CloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2B00CFEDA30FDC9F560D275 /* Pods-Snap CloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap CloneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snap CloneUITests/Pods-Snap CloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C04F47D982486E7E8C6246A4 /* Pods-Snap Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap Clone.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snap Clone/Pods-Snap Clone.release.xcconfig"; sourceTree = "<group>"; };
+		C27229CC7C1C1115327768C4 /* Pods-Snap CloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap CloneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snap CloneTests/Pods-Snap CloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		ECD9A714FA5557F705C81503 /* Pods_Snap_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA6F162761D1BDD6C516324 /* Pods-Snap Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap Clone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snap Clone/Pods-Snap Clone.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74963D17D36B851D8B2D637B /* Pods_Snap_Clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E302D620D0297AE2BE6D68 /* Pods_Snap_CloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51CD052943B7B913033FFC0 /* Pods_Snap_CloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				0A0A77141FB95ACC00052CAB /* Snap CloneTests */,
 				0A0A771F1FB95ACC00052CAB /* Snap CloneUITests */,
 				0A0A76FE1FB95ACB00052CAB /* Products */,
+				655AD007333057BC612F8A84 /* Pods */,
+				A61DC67FC6C8D5E63B93F68C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +121,7 @@
 				0A0A77041FB95ACB00052CAB /* Main.storyboard */,
 				0A0A77071FB95ACB00052CAB /* Assets.xcassets */,
 				0A0A77091FB95ACB00052CAB /* LaunchScreen.storyboard */,
+				0A0A772E1FB95DAF00052CAB /* GoogleService-Info.plist */,
 				0A0A770C1FB95ACB00052CAB /* Info.plist */,
 			);
 			path = "Snap Clone";
@@ -125,6 +145,29 @@
 			path = "Snap CloneUITests";
 			sourceTree = "<group>";
 		};
+		655AD007333057BC612F8A84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDA6F162761D1BDD6C516324 /* Pods-Snap Clone.debug.xcconfig */,
+				C04F47D982486E7E8C6246A4 /* Pods-Snap Clone.release.xcconfig */,
+				7E0FE9D391972EFC646B11A7 /* Pods-Snap CloneTests.debug.xcconfig */,
+				C27229CC7C1C1115327768C4 /* Pods-Snap CloneTests.release.xcconfig */,
+				4B61F2B92A62CC818C133359 /* Pods-Snap CloneUITests.debug.xcconfig */,
+				B2B00CFEDA30FDC9F560D275 /* Pods-Snap CloneUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A61DC67FC6C8D5E63B93F68C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECD9A714FA5557F705C81503 /* Pods_Snap_Clone.framework */,
+				734D56B858ECB73AAE0C8A63 /* Pods_Snap_CloneTests.framework */,
+				5CD33366D7BC272AD32F6825 /* Pods_Snap_CloneUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0A77251FB95ACC00052CAB /* Build configuration list for PBXNativeTarget "Snap Clone" */;
 			buildPhases = (
+				B237F0FB57B301B9C160DAB5 /* [CP] Check Pods Manifest.lock */,
 				0A0A76F91FB95ACB00052CAB /* Sources */,
 				0A0A76FA1FB95ACB00052CAB /* Frameworks */,
 				0A0A76FB1FB95ACB00052CAB /* Resources */,
+				41317A408BC22413350BC962 /* [CP] Embed Pods Frameworks */,
+				4E95743E7B300C88470BBA1F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0A77281FB95ACC00052CAB /* Build configuration list for PBXNativeTarget "Snap CloneTests" */;
 			buildPhases = (
+				CDDDF7A362D0F8F987EF07F8 /* [CP] Check Pods Manifest.lock */,
 				0A0A770D1FB95ACC00052CAB /* Sources */,
 				0A0A770E1FB95ACC00052CAB /* Frameworks */,
 				0A0A770F1FB95ACC00052CAB /* Resources */,
+				633F6F67647CDDFA745D063F /* [CP] Embed Pods Frameworks */,
+				BEC672342AC27984D3B4F2E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A0A772B1FB95ACC00052CAB /* Build configuration list for PBXNativeTarget "Snap CloneUITests" */;
 			buildPhases = (
+				FA0278EE54AAA0B752D8DA5B /* [CP] Check Pods Manifest.lock */,
 				0A0A77181FB95ACC00052CAB /* Sources */,
 				0A0A77191FB95ACC00052CAB /* Frameworks */,
 				0A0A771A1FB95ACC00052CAB /* Resources */,
+				97A632C04501683AFEE64B38 /* [CP] Embed Pods Frameworks */,
+				7845A7F54B4544160C1213C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0A770B1FB95ACB00052CAB /* LaunchScreen.storyboard in Resources */,
+				0A0A772F1FB95DAF00052CAB /* GoogleService-Info.plist in Resources */,
 				0A0A77081FB95ACB00052CAB /* Assets.xcassets in Resources */,
 				0A0A77061FB95ACB00052CAB /* Main.storyboard in Resources */,
 			);
@@ -253,6 +306,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41317A408BC22413350BC962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Snap Clone/Pods-Snap Clone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap Clone/Pods-Snap Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E95743E7B300C88470BBA1F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap Clone/Pods-Snap Clone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633F6F67647CDDFA745D063F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap CloneTests/Pods-Snap CloneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7845A7F54B4544160C1213C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap CloneUITests/Pods-Snap CloneUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97A632C04501683AFEE64B38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap CloneUITests/Pods-Snap CloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B237F0FB57B301B9C160DAB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snap Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC672342AC27984D3B4F2E8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap CloneTests/Pods-Snap CloneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDDDF7A362D0F8F987EF07F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snap CloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0278EE54AAA0B752D8DA5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snap CloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A0A76F91FB95ACB00052CAB /* Sources */ = {
@@ -424,6 +629,7 @@
 		};
 		0A0A77261FB95ACC00052CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA6F162761D1BDD6C516324 /* Pods-Snap Clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +645,7 @@
 		};
 		0A0A77271FB95ACC00052CAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04F47D982486E7E8C6246A4 /* Pods-Snap Clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +661,7 @@
 		};
 		0A0A77291FB95ACC00052CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E0FE9D391972EFC646B11A7 /* Pods-Snap CloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +679,7 @@
 		};
 		0A0A772A1FB95ACC00052CAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27229CC7C1C1115327768C4 /* Pods-Snap CloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +697,7 @@
 		};
 		0A0A772C1FB95ACC00052CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B61F2B92A62CC818C133359 /* Pods-Snap CloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +714,7 @@
 		};
 		0A0A772D1FB95ACC00052CAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B00CFEDA30FDC9F560D275 /* Pods-Snap CloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
