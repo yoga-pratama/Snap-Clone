@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0A0A77011FB95ACB00052CAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77001FB95ACB00052CAB /* AppDelegate.swift */; };
-		0A0A77031FB95ACB00052CAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77021FB95ACB00052CAB /* ViewController.swift */; };
+		0A0A77031FB95ACB00052CAB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77021FB95ACB00052CAB /* SignInViewController.swift */; };
 		0A0A77061FB95ACB00052CAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A77041FB95ACB00052CAB /* Main.storyboard */; };
 		0A0A77081FB95ACB00052CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A77071FB95ACB00052CAB /* Assets.xcassets */; };
 		0A0A770B1FB95ACB00052CAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A77091FB95ACB00052CAB /* LaunchScreen.storyboard */; };
 		0A0A77161FB95ACC00052CAB /* Snap_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77151FB95ACC00052CAB /* Snap_CloneTests.swift */; };
 		0A0A77211FB95ACC00052CAB /* Snap_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A77201FB95ACC00052CAB /* Snap_CloneUITests.swift */; };
 		0A0A772F1FB95DAF00052CAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A0A772E1FB95DAF00052CAB /* GoogleService-Info.plist */; };
+		0ACFAE721FB9907600920947 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFAE711FB9907600920947 /* SnapsViewController.swift */; };
+		0ACFAE741FB9946F00920947 /* PictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFAE731FB9946F00920947 /* PictureViewController.swift */; };
+		0ACFAE761FB9A00000920947 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFAE751FB9A00000920947 /* SelectUserViewController.swift */; };
 		51E302D620D0297AE2BE6D68 /* Pods_Snap_CloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 734D56B858ECB73AAE0C8A63 /* Pods_Snap_CloneTests.framework */; };
 		74963D17D36B851D8B2D637B /* Pods_Snap_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD9A714FA5557F705C81503 /* Pods_Snap_Clone.framework */; };
 		C51CD052943B7B913033FFC0 /* Pods_Snap_CloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD33366D7BC272AD32F6825 /* Pods_Snap_CloneUITests.framework */; };
@@ -40,7 +43,7 @@
 /* Begin PBXFileReference section */
 		0A0A76FD1FB95ACB00052CAB /* Snap Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snap Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A0A77001FB95ACB00052CAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A0A77021FB95ACB00052CAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A0A77021FB95ACB00052CAB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		0A0A77051FB95ACB00052CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A0A77071FB95ACB00052CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A0A770A1FB95ACB00052CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +55,9 @@
 		0A0A77201FB95ACC00052CAB /* Snap_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap_CloneUITests.swift; sourceTree = "<group>"; };
 		0A0A77221FB95ACC00052CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A0A772E1FB95DAF00052CAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0ACFAE711FB9907600920947 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		0ACFAE731FB9946F00920947 /* PictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureViewController.swift; sourceTree = "<group>"; };
+		0ACFAE751FB9A00000920947 /* SelectUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 		4B61F2B92A62CC818C133359 /* Pods-Snap CloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap CloneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snap CloneUITests/Pods-Snap CloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5CD33366D7BC272AD32F6825 /* Pods_Snap_CloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_CloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		734D56B858ECB73AAE0C8A63 /* Pods_Snap_CloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap_CloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,12 +123,15 @@
 			isa = PBXGroup;
 			children = (
 				0A0A77001FB95ACB00052CAB /* AppDelegate.swift */,
-				0A0A77021FB95ACB00052CAB /* ViewController.swift */,
+				0A0A77021FB95ACB00052CAB /* SignInViewController.swift */,
 				0A0A77041FB95ACB00052CAB /* Main.storyboard */,
 				0A0A77071FB95ACB00052CAB /* Assets.xcassets */,
 				0A0A77091FB95ACB00052CAB /* LaunchScreen.storyboard */,
 				0A0A772E1FB95DAF00052CAB /* GoogleService-Info.plist */,
 				0A0A770C1FB95ACB00052CAB /* Info.plist */,
+				0ACFAE711FB9907600920947 /* SnapsViewController.swift */,
+				0ACFAE731FB9946F00920947 /* PictureViewController.swift */,
+				0ACFAE751FB9A00000920947 /* SelectUserViewController.swift */,
 			);
 			path = "Snap Clone";
 			sourceTree = "<group>";
@@ -315,12 +324,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Snap Clone/Pods-Snap Clone-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,8 +477,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0A77031FB95ACB00052CAB /* ViewController.swift in Sources */,
+				0A0A77031FB95ACB00052CAB /* SignInViewController.swift in Sources */,
+				0ACFAE741FB9946F00920947 /* PictureViewController.swift in Sources */,
+				0ACFAE761FB9A00000920947 /* SelectUserViewController.swift in Sources */,
 				0A0A77011FB95ACB00052CAB /* AppDelegate.swift in Sources */,
+				0ACFAE721FB9907600920947 /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

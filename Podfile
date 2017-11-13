@@ -7,6 +7,9 @@ target 'Snap Clone' do
 
   # Pods for Snap Clone
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 
   target 'Snap CloneTests' do
     inherit! :search_paths
